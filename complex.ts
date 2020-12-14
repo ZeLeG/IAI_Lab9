@@ -24,7 +24,7 @@ class Complex
 
     getMod(): number
     {
-        return 
+        return Math.sqrt((Math.pow(this.re,2))+(Math.pow(this.im,2)));
     }
 
     toString()
